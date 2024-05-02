@@ -14,7 +14,7 @@ namespace DiegoCorrea.Models
         public int NumHijos { get; set; }
 
         [AllowedValues]
-        public decimal Salario { get; set; }
+        public double Salario { get; set; }
 
         public string Ciudad { get; set; }
 

@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using DiegoCorrea.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DiegoCorreaContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DiegoCorreaContext") ?? throw new InvalidOperationException("Connection string 'DiegoCorreaContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
