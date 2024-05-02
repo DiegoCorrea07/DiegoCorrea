@@ -10,7 +10,6 @@ namespace DiegoCorrea.Models
         [Required]
         public string NombreCarrera { get; set; }
 
-        [AllowedValues]
         public string Campus { get; set; }
 
         public int NumeroSemestres { get; set; }

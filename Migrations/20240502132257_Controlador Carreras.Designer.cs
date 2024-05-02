@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiegoCorrea.Migrations
 {
     [DbContext(typeof(DiegoCorreaContext))]
-    [Migration("20240502130814_Controlador DCorrea")]
-    partial class ControladorDCorrea
+    [Migration("20240502132257_Controlador Carreras")]
+    partial class ControladorCarreras
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

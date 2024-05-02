@@ -20,3 +20,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+* {
+    color: red;
+}
+
+h1 {
+    color: orangered;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Clase1 {
+    color: burlywood;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
